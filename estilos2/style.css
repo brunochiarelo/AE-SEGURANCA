@@ -4,3 +4,51 @@
     padding: 0px;
     margin: 0px;
 }
+
+body {
+    background-image: linear-gradient(to bottom, white, rgba(0, 0, 0, 0.923));
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: black;
+    width: 250px;
+    padding: 10px;
+    border-radius: 0px 0px 20px 0px;
+}
+
+nav > a {
+    background-color: rgb(253, 0, 0);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    
+}
+
+nav > a:hover {
+    background-color: black;
+    padding: 8px;
+    border: 1px solid red;
+    font-weight: bold;
+}
+
+main > article > h2 {
+    text-align: center;
+    padding-top: 40px;
+    
+}
