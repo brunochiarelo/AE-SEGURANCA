@@ -46,7 +46,7 @@ header {
     background-size: 100% 100%;
     background-position: center center;
     height: 200px;
-    width: 100vw;
+    width: 104vw;
     margin-bottom: 40px;
     
 }
@@ -84,4 +84,6 @@ main {
     margin: auto;
     padding-top: 20px;
 }
+
+
 
