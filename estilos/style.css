@@ -16,12 +16,14 @@ header.titulo > span > a > img {
 
  header.titulo {
     background-color: red;
-    height: 70px;
+    height: 90px;
+    margin-bottom: 0px;
  }
 
 div.email {
     display: inline-block;
     margin-left: 5px;
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     font-weight: bold;
