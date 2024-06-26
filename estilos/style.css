@@ -7,6 +7,10 @@
     padding: 0px;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 div.navbar {
     background-color: rgb(103, 103, 103);
     padding: 10px 0;
@@ -17,7 +21,7 @@ div.navbar {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-div.navbar > a > img {
+div.navbar > a, img {
     width: 50px;
     border-radius: 50%;
     margin-left: 15px;
