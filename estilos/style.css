@@ -7,36 +7,39 @@
     padding: 0px;
 }
 
-header.titulo > span > a > img {
+header.navbar > header.titulo > span > a > img {
     width: 35px;
-    margin: 25px 0px 0px 10px;
+    margin: 0px 0px 0px 0px;
     border-radius: 50%;
+    margin-top: 55px;
+    padding: 10px;
     
  }
 
  header.titulo {
     background-color: red;
-    height: 90px;
-    margin-bottom: 0px;
+    height: 30px;
+    
+    
  }
 
 div.email {
     display: inline-block;
     margin-left: 5px;
-    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     font-weight: bold;
     
 }
+
 .navbar {
     overflow: hidden;
     background-color: black;
     position: fixed; /* Fixa a barra no topo da janela */
     width: 100%;
-    
+    top: 0;
     z-index: 1000; /* Z-index alto para garantir que fique acima do conteúdo */
-  }
+}
   
 .navbar img {
     float: left;
@@ -45,13 +48,13 @@ div.email {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-  }
+}
   
 .navbar a:hover {
     background-color: #ddd;
     color: black;
-  }
+}
 
-  .navbar > h2 {
+.navbar > h2 {
     color: white;
-  }
+}
