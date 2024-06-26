@@ -173,7 +173,7 @@ footer {
 footer > h2 {
     text-align: center;
     text-shadow: 1px 1px 0px red;
-    padding-bottom: 50px;
+    
     
     
 }
@@ -191,7 +191,7 @@ footer > p {
 footer > iframe {
     display: block;
     margin: auto;
-    margin-bottom: 50px;
+    
 }
 
 p#final {
