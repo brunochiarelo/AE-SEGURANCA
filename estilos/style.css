@@ -123,21 +123,23 @@ section > h4 {
 }
 
 section > p.t1 {
+    font-size: 1.1em;
     display: block;
-    width: 350px;
+    width: 300px;
     text-align: justify;
     padding-top: 25px;
     padding-left: 20px;
 }
 
 section > p.t2 {
-    color: rgba(0, 0, 0, 0.686);
-    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
     display: block;
-    width: 350px;
+    width: 300px;
     text-align: justify;
     padding-top: 25px;
     padding-left: 60px;
+    padding-right: 40px;
 }
 
 
