@@ -8,15 +8,15 @@
 }
 
 header > span > a > img {
-    width: 30px;
-    margin: 9px 0px 0px 10px;
+    width: 35px;
+    margin: 25px 0px 0px 10px;
     border-radius: 50%;
     
  }
 
  header {
     background-color: red;
-    height: 50px;
+    height: 70px;
  }
 
 div.email {
