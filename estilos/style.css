@@ -54,10 +54,9 @@ nav > a {
     background-color: rgb(253, 0, 0);
     color: white;
     text-decoration: none;
-    padding: 2px;
+    padding: 8px;
     margin-left: 5px;
     border-radius: 5px;
-    border: 2px solid black;
     
     
 }
@@ -66,10 +65,12 @@ nav > a:hover {
     background-color: black;
     padding: 6px;
     border: 1px solid red;
+    box-shadow: 2px 2px 3px red;
 }
 
 header > img {
     margin-top: 30px;
+    width: 80vw;
     display: block;
     margin: auto;
     box-shadow: 2px 2px 4px black;
@@ -79,7 +80,7 @@ header > img {
 main {
     background-color: white;
     text-align: center;
-    width: 300px;
+    width: 95vw;
     margin: auto;
     margin-top: 30px;
     padding-top: 20px;
@@ -109,6 +110,7 @@ main > article > p {
 section > img  {
     display: block;
     margin: auto;
+    width: 80vw;
     margin-top: 40px;
     box-shadow: 2px 2px 4px black;
     border-radius: 0px 0px 10px 10px;

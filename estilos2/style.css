@@ -24,8 +24,8 @@ header > p {
 
 nav {
     background-color: black;
-    width: 250px;
-    padding: 10px;
+    width: 290px;
+    padding: 15px;
     border-radius: 0px 0px 20px 0px;
 }
 
@@ -33,7 +33,7 @@ nav > a {
     background-color: rgb(253, 0, 0);
     color: white;
     text-decoration: none;
-    padding: 5px;
+    padding: 8px;
     margin-left: 5px;
     border-radius: 5px;
     border: 2px solid black;
@@ -45,6 +45,7 @@ nav > a:hover {
     padding: 8px;
     border: 1px solid red;
     font-weight: bold;
+    box-shadow: 2px 2px 3px red;
 }
 
 main > article > h2 {
@@ -55,9 +56,10 @@ main > article > h2 {
 }
 
 main > article > img {
-    margin-top: 20px;
     display: block;
+    margin-top: 20px;
     margin: auto;
+    width: 80vw;
     border: 2px solid black;
 }
 
@@ -70,7 +72,7 @@ main > section {
     color: rgba(0, 0, 0, 0.657);
     font-size: 1.5em;
     font-weight: bold;
-    width: 300px;
+    width: 90vw;
     margin: auto;
     margin-bottom: 30px;
     margin-top: 30px;
