@@ -50,6 +50,9 @@ nav > a:hover {
 
 main > article > h2 {
     text-align: center;
+    text-shadow: 2px 2px 1px rgba(255, 0, 0, 0.529);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
     padding-top: 40px;
     padding-bottom: 40px;
     
